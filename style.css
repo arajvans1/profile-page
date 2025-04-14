@@ -41,6 +41,42 @@ a:hover {
     color: var(--hotmag);
     text-decoration: none;
 }
+
+/*nav styles */
+nav {
+    font-family: var(--mono);
+    font-size: 80%;
+
+}
+
+nav h1 { 
+    font-family: var(--sans);
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+nav a:hover {
+    color: var(--magenta);
+}
+
+nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+}
+
 /* intro styles */
 #intro {
     line-height: 1.5;
@@ -58,17 +94,16 @@ a:hover {
 
 #contact {
     background-color: var(--plum);
-    font-size: 15px;
-    padding: 25px;
+    text-align: center;
     
 }
 
-#contact div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 300px;
-    width: 100%;
+#contact div {
+    width: 400px;
     margin: 0 auto;
+    padding: 3rem;
+}
+
+#contact p:last-child{
+    margin-bottom: 3rem;
 }
