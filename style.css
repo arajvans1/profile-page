@@ -170,9 +170,5 @@ footer ul {
     flex-wrap: wrap;
 }
 
-footer li:first-child{
-   flex-basis: 100%;
-}
-footer li:last-child{
-    flex-basis: 100%;
-}
+
+
