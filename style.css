@@ -66,17 +66,44 @@ nav ul{
 nav a {
     text-decoration: none;
     color: var(--white);
+    display: block;
 }
 
-nav a:hover {
-    color: var(--magenta);
-}
+
 
 nav li:first-child{
     flex-basis: 100%;
     text-align: center;
+    margin-top: 1rem;
 }
 
+
+
+nav [class*="fa-"] {
+  color: var(--aqua);
+  font-size: 140%;
+}
+nav h1 [class*="fa-"] {
+  color: var(--aqua);
+  font-size: 90%;
+}
+
+nav [class*="fa-"]:hover {
+  color: var(--magenta);
+}
+
+
+.button {
+    background-color: var(--hotmag);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: var(--white);
+    background-color: var(--magenta);
+
+}
 /* intro styles */
 #intro {
     line-height: 1.5;
