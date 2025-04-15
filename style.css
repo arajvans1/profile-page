@@ -159,6 +159,7 @@ nav [class*="fa-"]:hover {
 
 footer {
     background-color: var(--black);
+    padding: 1rem 0;
 
 }
 
@@ -167,8 +168,14 @@ footer ul {
     display: flex;
     gap:1rem;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-
+footer li {
+    font-size: 150%;
+}
+footer li a:hover {
+  color: var(--aqua);
+}
 
