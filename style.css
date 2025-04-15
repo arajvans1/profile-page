@@ -6,7 +6,7 @@
     --magenta: #e310cb;
     --aqua: #86fbfb;
     --white: #f7f8fa;
-    --font-size: 1.3rem;
+    --font-size: 1.1rem;
     --mono: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
 }
@@ -133,4 +133,46 @@ nav [class*="fa-"]:hover {
 
 #contact p:last-child{
     margin-bottom: 3rem;
+}
+
+
+/* responsive desigh */
+
+@media (min-width: 850px){
+    nav {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    nav li:first-child{
+        flex-basis: auto;
+        margin-right: auto;
+    }
+
+    nav ul {
+        align-items: baseline;
+    }
+    
+}
+
+/* footer */
+
+footer {
+    background-color: var(--black);
+
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer li:first-child{
+   flex-basis: 100%;
+}
+footer li:last-child{
+    flex-basis: 100%;
 }
